@@ -173,9 +173,67 @@ header {
 	top: 30%;
 	right: 5%;
 }
+/*------ NAV BAR ------*/
 
-/*******
-*/
+.navbar {
+	height: 70px;
+	width: 100%;
+	background-color: #2F334B;
+	position:relative;
+	padding: 0 60px 0 60px;
+}
+
+.navbar > .nav-box {
+	display: inline;
+}
+
+.navbar > .nav-box > .nav-logo {
+	display: inline-block;
+	font-size: 22px;
+	color: #fff;
+	padding: 24px 40px 24px 40px;
+}
+
+.nav-box > .nav-links {
+	display: none;
+}
+
+
+.nav-box > .nav-links {
+	display: inline;
+	float: right;
+	font-size: 18px;
+}
+
+.nav-links > a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 26px 40px 26px 40px;
+	color: #fff;
+	transition: .3s background-color;
+}
+
+.nav-box a.active {
+	background color: #FF5959;
+	height: 70px;
+}
+
+
+.nav-box > .nav-links > a:hover {
+	background-color: #FF5959;
+	height: 70px;
+}
+
+
+
+.navbar > #nav-check {
+	display: none;
+}
+
+
+/* END OF NAV */
+
+/* MAIN CONTENT BODY */
 
 .section {
 	padding: 50px;
@@ -229,6 +287,8 @@ img {
 	width: 250px;
 	height: 200px;
 }
+
+
 
 
 
@@ -556,7 +616,8 @@ h4 {
 h1,
 .text--xxl {
 	font-size: var(--text-xxl);
-	color: var(--color-text-h1);
+	color: #2F334B;
+	text-align: center;
 }
 
 h2,
