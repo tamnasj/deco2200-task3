@@ -13,7 +13,7 @@
 }
 body {
 	/*font-family: "Lato", sans-serif;*/
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Qanelas ', sans-serif;
 }
 
 .container {
@@ -42,6 +42,25 @@ body {
 	grid-gap: 10px;
 
 	height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.single-image-container img {
+    width: 12
+}
+
+.image-container img {
+    width:450px;
 }
 
 
@@ -76,7 +95,6 @@ header {
 	margin: 2em auto;
 	max-width: 1200px;
 }
-
 
 
 .title-container {
@@ -246,11 +264,21 @@ header {
 }
 
 .containercontent {
-	display: block;
+    display: block;
 	padding-left: 20px;
-	padding-right: 20px;
+    padding-right: 20px;
+    
 }
 
+.containercontent img {
+    width: 1200px;
+    
+}
+
+.container-content img {
+    float: left;
+    width: 450px;
+}
 
 
 .paragraph {
@@ -290,7 +318,6 @@ img {
 	width: 250px;
 	height: 200px;
 }
-
 
 
 
