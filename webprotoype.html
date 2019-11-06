@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="designer" content="Rob Dongas">
+   <!-- Required imported CSS files -->
+   <link rel="stylesheet" href="reset.css" />
+   <!-- Main CSS file -->
+   <link rel="stylesheet" href="styles.css" />
+
+   <!-- Title -->
+   <title>Interaction Design Studio</title>
+</head>
+
+
+<body class="container" id="top">
+
+  <main>
+     <article>
+
+  <!-- NAV BAR -->
+
+       <div class="navbar">
+           <input type="checkbox" id="nav-check">
+             <div class="nav-box">
+               <div class="nav-logo">Better Safe than Sorry
+               </div>
+               <div class="nav-links">
+                 <a href="#">Appendix</a>
+               </div>
+               <div class="nav-links">
+                 <a href="#">Prototype</a>
+               </div>
+               <div class="nav-links">
+                 <a class="active" href="task3.html">Process</a>
+               </div>
+             </div>
+       </div>
+
+
+  <section class="container-content">
+  <div class="section">
+     <div class="containercontent">
+       <div class="containercontent_content">
+       <h1 id="heading">Web Prototype</h1>
+       <p>This prototype was created using Figma. It may take some time to download the content.</p>
+     </div>
+       <div class="web-mockup">
+         <div class="screen"><iframe style="border: none;" width="1200" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F83MYgpGN8rsKvs0fPJVagq%2FHi-fi-1%3Fnode-id%3D771%253A8255%26scaling%3Dscale-down" allowfullscreen></iframe>
+           </div>
+       </div>
+   </div>
+
+</main>
+</article> 
+
+   <!-- Required imported js -->
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.aside-container a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+      new ScrollMenu('footer a[href*="#"], .content-container a[href*="#"]', {
+         duration: 500,
+      })
+   </script>
+
+
+</body>
+
+</html>
