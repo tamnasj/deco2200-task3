@@ -314,6 +314,28 @@ header {
 
 }
 
+.herocontainer {
+	width: 100%;
+	padding: 0 0 0 45px;
+}
+
+.herocontainer .herocontainer_image {
+    display: inline-block;
+		vertical-align: top;
+    width: 60%;
+		margin: 5px 1px 0 0;
+}
+
+.herocontainer_text p {
+	padding: 0;
+}
+.herocontainer .herocontainer_text {
+	display: inline-block;
+	width: 30%;
+}
+
+}
+
 
 
 img {
